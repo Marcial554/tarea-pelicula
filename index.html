@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body> 
+    <style>
+        img src{
+            width: 600px;
+            height: 1000px;
+        }
+    </style>
+    
+    <script>    
+        var dato1=(prompt("¿Cuál es tu nombre?"));
+
+
+        var dato2=(prompt("¿Qué película le gusta?"));
+
+        if(dato2=="Shrek")
+        {
+            document.write('<img src="https://elcomercio.pe/resizer/v2/OVSRQ4YQ2RF3PESEOCW6NSADHU.jpg?auth=97dc77af2438d5dcb920968d1a582b003c9afcab37488fe4ff5200129585960a&width=1200&height=1200&quality=75&smart=true" alt="">');
+        } 
+        if(dato2=="Las cronicas de Narnia")
+        {
+            document.write('<img src="https://es.web.img2.acsta.net/medias/nmedia/18/89/76/32/20065582.jpg" alt="">');
+        }
+        if(dato2=="Vengadores Endgame")
+        {
+            document.write('<img src="https://hips.hearstapps.com/hmg-prod/images/vengadores-endgame-66575160add0a.jpg?crop=1xw:1xh;center,top&resize=980:*" alt="">');
+        }
+        if(dato2=="Spiderman 2")
+        {
+            document.write('<img src="https://i.blogs.es/3f829f/ps5-spiderman-2-resena-vale-la-pena-peter-miles-venom-spoiler/375_375.jpeg" alt="">');
+        }
+        else
+        {
+            document.write(" No has escogido la película de Shrek, Las cronicas de Narnia, Vengadores Endgame y Spiderman 2 ");
+        }
+
+    </script>
+</body>
+</html>  
